@@ -1,0 +1,147 @@
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.founder > p{
+    font-size: 18px;
+    color: #0A0A0B;
+}
+
+.img-founder{
+    width: 48px; 
+    height: 48px;
+}
+
+.founder-name > p{
+    font-size: 14px;
+    color: #0A0A0B;
+}
+
+.founder-name > span{
+    font-size: 12px;
+    color: #0A0A0B;
+    opacity: 0.72;
+}
+
+.brand{
+    font-weight: 600;
+    color: #5452F6;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    font-size: 24px;
+}
+
+.box{
+    border-radius: 16px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+    z-index: 1;
+}
+
+.box > h4{
+    font-weight: 500;
+    color: #0A0A0B;
+    font-size: 20px;
+}
+
+.input-width{
+    width: 120%;
+}
+
+.form-control{
+    height: 48px;
+    border: 1px solid #0A0A0B;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #0A0A0B;
+}
+
+.form-control::placeholder{
+    font-size: 12px;
+    color: #0A0A0B;
+}
+
+.form-check-input:checked{
+    background-color: #5452F6;
+    border-color: #5452F6;
+    outline: none;
+}
+
+.form-check-label{
+    color: #0A0A0B;
+    font-size: 12px;
+}
+
+.login-btn{
+    background-color: #5452F6;
+    width: 120%;
+    margin-top: 20%;
+    text-decoration: none;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.login-btn:hover{
+    color: #ffffff;
+    background-color: #4B49EE;
+}
+
+.svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .brand{
+        top: 1%;
+    }
+    .founder{
+        margin-top: 6%;
+    }
+    .founder > p{
+        font-size: 12px;
+        color: #0A0A0B;
+    }
+    .img-founder{
+        width: 40px; 
+        height: 40px;
+    }
+    .founder-name > p{
+        font-size: 12px;
+        color: #0A0A0B;
+    }
+    
+    .founder-name > span{
+        font-size: 10px;
+        color: #0A0A0B;
+        opacity: 0.72;
+    }
+    .box > h4{
+        font-weight: 500;
+        color: #0A0A0B;
+        font-size: 16px;
+    }
+    .form-control{
+        height: 40px;
+    }
+    .input-width{
+        width: 100%;
+    }
+    .login-btn{
+        width: 100%;
+        margin-top: 15%;
+    }
+}
