@@ -21,7 +21,7 @@ body{
 .navbar-brand{
     font-size: 28px;
     font-weight: 600;
-    color: #000000;
+    color: #5452F6;
 }
 
 .navbar-toggler:focus {
@@ -339,13 +339,8 @@ body{
         margin-bottom: 32px !important;
     }
     .btn-get-sec{
-        height: 41px;
+        height: 48px;
         width: 200px;
-        background-color: #5452F6;
-        color: #FFFFFF;
-        border-radius: 8px;
-        border: none;
-        font-weight: 500;
         font-size: 14px;
     }
     .read{
@@ -364,10 +359,10 @@ body{
         font-size: 14px;
         height: 45px;
         width: 250px;
-        margin-top: 20%;
+        margin-top: 25%;
     }
     .card{
-        margin-bottom: 6%;
+        margin-bottom: 7%;
         margin-left: 8%;
         margin-right: 8%;
     }
