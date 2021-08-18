@@ -369,4 +369,7 @@ body{
     .footer{
         height: 40px;
     }
+    .right-footer-svg{
+        display: none;
+    }
 }
