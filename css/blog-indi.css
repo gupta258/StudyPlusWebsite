@@ -24,6 +24,10 @@ body{
     color: #000000;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .blog{
     text-decoration: none;
     color: #0A0A0B;
@@ -44,6 +48,14 @@ body{
     background-color: #F7F7F7;
     position: relative;
     padding-bottom: 5%;
+}
+
+.social-icons{
+    position: sticky; 
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .blog-content > p{
@@ -131,7 +143,7 @@ body{
     color: #0A0A0B;
 }
 
-.card > a{
+.card > button{
     border: 1px solid #5452F6;
     border-radius: 8px;
     color: #5452F6;
@@ -168,4 +180,60 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.pad{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-content > h2{
+        font-size: 28px;
+        width: 100% !important;
+    }
+    .social-icons{
+        flex-direction: row;
+    }
+    .blog-desc > span{
+        font-size: 14px;
+    }
+    .blog-desc > p{
+        font-size: 22px;
+    }
+    .pad{
+        margin-left: 0%;
+        margin-right: 0%;
+    }.read{
+        font-size: 24px;
+    }
+    .blog-content-list > a{
+        height: 35px;
+        width: 130px;
+        font-size: 12px;
+        margin-bottom: 15%;
+    }
+    .card > h3{
+        font-size: 22px;
+    }
+    .card > p{
+        font-size: 12px;
+    }
+    .card > button{
+        font-size: 14px;
+        height: 45px;
+        width: 250px;
+        margin-top: 25%;
+    }
+    .card{
+        margin-bottom: 7%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .footer{
+        height: 40px;
+    }
+    .right-footer-svg{
+        display: none;
+    }
 }

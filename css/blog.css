@@ -124,7 +124,7 @@ body{
     color: #0A0A0B;
 }
 
-.card > a{
+.card > button{
     border: 1px solid #5452F6;
     border-radius: 8px;
     color: #5452F6;
@@ -134,6 +134,7 @@ body{
     width: 272px;
     text-decoration: none;
     margin-top: 30%;
+    background-color: transparent;
 }
 
 .footer{
@@ -161,4 +162,62 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.cusmt-5{
+    margin-top: 3%;
+}
+
+.custommt-5{
+    margin-top: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-content-list > a{
+        margin-bottom: 15%;
+    }
+    .custommt-5{
+        margin-top: 0%;
+        margin-bottom: 0% !important
+    }
+    .card > h3{
+        font-size: 22px;
+    }
+    .card > p{
+        font-size: 12px;
+    }
+    .card > button{
+        font-size: 14px;
+        height: 45px;
+        width: 250px;
+        margin-top: 25%;
+    }
+    .card{
+        margin-bottom: 7%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .footer{
+        height: 40px;
+    }
+    .right-footer-svg{
+        display: none;
+    }
+    .blog-content > h3{
+        font-size: 24px;
+    }
+    .blog-content > span{
+        font-size: 12px;
+    }
+    .blog-content > a{
+        height: 35px;
+        width: 130px;
+        font-size: 12px;
+    }
+    .custommt-5{
+        margin-top: 4%;
+    }
+    .cusmt-5{
+        margin-top: 8%
+    }
 }
